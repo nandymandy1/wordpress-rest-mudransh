@@ -1,0 +1,81 @@
+[10-Dec-2020 10:15:42 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/update.php on line 143
+[10-Dec-2020 10:15:42 UTC] PHP Stack trace:
+[10-Dec-2020 10:15:42 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:0
+[10-Dec-2020 10:15:42 UTC] PHP   2. do_core_upgrade() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:937
+[10-Dec-2020 10:15:42 UTC] PHP   3. Core_Upgrader->upgrade() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:716
+[10-Dec-2020 10:15:42 UTC] PHP   4. Core_Upgrader->check_files() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-core-upgrader.php:95
+[10-Dec-2020 10:15:42 UTC] PHP   5. get_core_checksums() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-core-upgrader.php:398
+[10-Dec-2020 10:15:42 UTC] PHP   6. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/update.php:143
+[10-Dec-2020 10:16:52 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/update.php on line 143
+[10-Dec-2020 10:16:52 UTC] PHP Stack trace:
+[10-Dec-2020 10:16:52 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:0
+[10-Dec-2020 10:16:52 UTC] PHP   2. do_core_upgrade() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:937
+[10-Dec-2020 10:16:52 UTC] PHP   3. Core_Upgrader->upgrade() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:716
+[10-Dec-2020 10:16:52 UTC] PHP   4. update_core() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-core-upgrader.php:172
+[10-Dec-2020 10:16:52 UTC] PHP   5. get_core_checksums() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/update-core.php:1048
+[10-Dec-2020 10:16:52 UTC] PHP   6. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/update.php:143
+[10-Dec-2020 10:17:10 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php on line 607
+[10-Dec-2020 10:17:10 UTC] PHP Stack trace:
+[10-Dec-2020 10:17:10 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:0
+[10-Dec-2020 10:17:10 UTC] PHP   2. do_core_upgrade() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:937
+[10-Dec-2020 10:17:10 UTC] PHP   3. Core_Upgrader->upgrade() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update-core.php:716
+[10-Dec-2020 10:17:10 UTC] PHP   4. do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-core-upgrader.php:219
+[10-Dec-2020 10:17:10 UTC] PHP   5. WP_Hook->do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/plugin.php:478
+[10-Dec-2020 10:17:10 UTC] PHP   6. WP_Hook->apply_filters() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:311
+[10-Dec-2020 10:17:10 UTC] PHP   7. wp_update_themes() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:285
+[10-Dec-2020 10:17:10 UTC] PHP   8. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php:607
+[10-Dec-2020 10:18:44 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php on line 408
+[10-Dec-2020 10:18:44 UTC] PHP Stack trace:
+[10-Dec-2020 10:18:44 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update.php:0
+[10-Dec-2020 10:18:44 UTC] PHP   2. Theme_Upgrader->bulk_upgrade() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update.php:245
+[10-Dec-2020 10:18:44 UTC] PHP   3. do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-theme-upgrader.php:481
+[10-Dec-2020 10:18:44 UTC] PHP   4. WP_Hook->do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/plugin.php:484
+[10-Dec-2020 10:18:44 UTC] PHP   5. WP_Hook->apply_filters() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:311
+[10-Dec-2020 10:18:44 UTC] PHP   6. wp_update_plugins() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:285
+[10-Dec-2020 10:18:44 UTC] PHP   7. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php:408
+[10-Dec-2020 10:18:50 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php on line 612
+[10-Dec-2020 10:18:50 UTC] PHP Stack trace:
+[10-Dec-2020 10:18:50 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update.php:0
+[10-Dec-2020 10:18:50 UTC] PHP   2. Theme_Upgrader->bulk_upgrade() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/update.php:245
+[10-Dec-2020 10:18:50 UTC] PHP   3. do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-theme-upgrader.php:481
+[10-Dec-2020 10:18:50 UTC] PHP   4. WP_Hook->do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/plugin.php:484
+[10-Dec-2020 10:18:50 UTC] PHP   5. WP_Hook->apply_filters() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:311
+[10-Dec-2020 10:18:50 UTC] PHP   6. wp_update_themes() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:285
+[10-Dec-2020 10:18:50 UTC] PHP   7. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php:612
+[11-Dec-2020 08:16:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/update.php on line 143
+[11-Dec-2020 08:16:23 UTC] PHP Stack trace:
+[11-Dec-2020 08:16:23 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-cron.php:0
+[11-Dec-2020 08:16:23 UTC] PHP   2. do_action_ref_array() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-cron.php:138
+[11-Dec-2020 08:16:23 UTC] PHP   3. WP_Hook->do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/plugin.php:551
+[11-Dec-2020 08:16:23 UTC] PHP   4. WP_Hook->apply_filters() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:311
+[11-Dec-2020 08:16:23 UTC] PHP   5. WP_Site_Health->wp_cron_scheduled_check() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:287
+[11-Dec-2020 08:16:23 UTC] PHP   6. WP_Site_Health->perform_test() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-wp-site-health.php:2633
+[11-Dec-2020 08:16:23 UTC] PHP   7. WP_Site_Health->get_test_background_updates() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-wp-site-health.php:177
+[11-Dec-2020 08:16:23 UTC] PHP   8. WP_Site_Health_Auto_Updates->run_tests() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-wp-site-health.php:1704
+[11-Dec-2020 08:16:23 UTC] PHP   9. WP_Site_Health_Auto_Updates->test_all_files_writable() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:37
+[11-Dec-2020 08:16:23 UTC] PHP  10. get_core_checksums() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:330
+[11-Dec-2020 08:16:23 UTC] PHP  11. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-admin/includes/update.php:143
+[11-Dec-2020 08:16:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php on line 173
+[11-Dec-2020 08:16:23 UTC] PHP Stack trace:
+[11-Dec-2020 08:16:23 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-cron.php:0
+[11-Dec-2020 08:16:23 UTC] PHP   2. do_action_ref_array() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-cron.php:138
+[11-Dec-2020 08:16:23 UTC] PHP   3. WP_Hook->do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/plugin.php:551
+[11-Dec-2020 08:16:23 UTC] PHP   4. WP_Hook->apply_filters() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:311
+[11-Dec-2020 08:16:23 UTC] PHP   5. wp_version_check() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:287
+[11-Dec-2020 08:16:23 UTC] PHP   6. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php:173
+[11-Dec-2020 08:16:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php on line 408
+[11-Dec-2020 08:16:23 UTC] PHP Stack trace:
+[11-Dec-2020 08:16:23 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-cron.php:0
+[11-Dec-2020 08:16:23 UTC] PHP   2. do_action_ref_array() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-cron.php:138
+[11-Dec-2020 08:16:23 UTC] PHP   3. WP_Hook->do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/plugin.php:551
+[11-Dec-2020 08:16:23 UTC] PHP   4. WP_Hook->apply_filters() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:311
+[11-Dec-2020 08:16:23 UTC] PHP   5. wp_update_plugins() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:287
+[11-Dec-2020 08:16:23 UTC] PHP   6. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php:408
+[11-Dec-2020 08:16:23 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php on line 612
+[11-Dec-2020 08:16:23 UTC] PHP Stack trace:
+[11-Dec-2020 08:16:23 UTC] PHP   1. {main}() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-cron.php:0
+[11-Dec-2020 08:16:23 UTC] PHP   2. do_action_ref_array() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-cron.php:138
+[11-Dec-2020 08:16:23 UTC] PHP   3. WP_Hook->do_action() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/plugin.php:551
+[11-Dec-2020 08:16:23 UTC] PHP   4. WP_Hook->apply_filters() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:311
+[11-Dec-2020 08:16:23 UTC] PHP   5. wp_update_themes() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/class-wp-hook.php:287
+[11-Dec-2020 08:16:23 UTC] PHP   6. trigger_error() /Users/narendramaurya/Local Sites/mudraone/app/public/wp-includes/update.php:612
